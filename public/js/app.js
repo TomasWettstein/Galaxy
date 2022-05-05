@@ -30,7 +30,7 @@ const style = {
 
 abajo.addEventListener('click', () =>  moverAbajo())
 arriba.addEventListener('click', () => moverArriba())
-rotar.addEventListener('click', () => {rotacion()})
+rotar.addEventListener('click', () => rotacion())
 
 
 btnFondoA.addEventListener("click", () =>{

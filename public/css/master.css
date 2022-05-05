@@ -1,0 +1,15 @@
+@keyframes rotar {
+    from {
+     transform: rotate(0deg)
+                translate(-70px)
+                rotate(0deg);
+    }
+    to {
+     transform: rotate(360deg)
+                translate(-70px) 
+                rotate(-360deg);
+    }
+   }
+.rotacion{
+    animation: 3s rotar infinite linear;
+}
